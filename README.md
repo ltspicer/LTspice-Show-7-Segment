@@ -1,4 +1,4 @@
-Deutsch
+Deutsch:
 
 Visualisierung von 7-Segment Anzeige aus LTspice-Plot (Python3 Programm)
 
