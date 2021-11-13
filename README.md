@@ -58,7 +58,7 @@ to
   
 language = "EN"     # Hier Sprache wählen (DE)  -  Select language here (EN)
   
-After the simulation click on the plot window and then on File / Export.
+After the simulation click on the plot window and then on File / "Export data as text".
 There you select the required voltages.
 Export to the txt file.
   
