@@ -16,7 +16,7 @@ Dann starte das Programm s7s.py.
 
 Nach dem Aufruf, dem Öffnen der txt Datei und ev weiteren Anpassungen, auf "Fertig" drücken. Meistens passen die Voreinstellungen. Sonst ggf anpassen. Nun wird die 7-Segment-Anzeige und die 4 zusätzlichen LEDs animiert.
 
-Startzeit: Anfang des betrachteten Zeitbereichs in Sekunden, siehe Plot-Fenster (voreingestellt: 0.0000)
+Startzeit: Anfang des betrachteten Zeitbereichs in Sekunden (voreingestellt: 0.0000)
 
 Stopzeit: Ende des betrachteten Zeitbereichs in Sekunden (voreingestellt: 999.9999)
 
@@ -67,7 +67,7 @@ There you select the required voltages. The name of the simulation with the exte
 
 Execute s7s.py now.
   
-Start time: Start of the considered time range in seconds, see plot window (preset: 0.0000)
+Start time: Start of the considered time range in seconds (preset: 0.0000)
   
 Stop time: End of the considered time range in seconds (preset: 999.9999)
   
