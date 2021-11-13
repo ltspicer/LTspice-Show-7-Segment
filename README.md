@@ -4,6 +4,8 @@ Visualisierung von 7-Segment Anzeige aus LTspice-Plot (Python3 Programm)
 
 Benötigt: Python3.7+ (Windows User müssen Python3.7 oder höher installieren / In Linux ist das bereits vorinstalliert)
 
+Siehe: https://bodo-schoenfeld.de/installation-von-python-unter-windows-10/
+
 Fehlende Bibliotheken werden automatisch beim Erststart installiert.
 
 Jede der Segmentspannungen V(a) .. V(g), steuern dabei ein Segment an; die Spannungen V(RBO) und V(Carryout) steuern zwei "LEDs" an. Diese Spannungen entnimmt das Programm einer Text-Datei, die die Simulationsergebnisse enthält. Die Text-Datei exportiert man folgendermaßen:
