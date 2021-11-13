@@ -36,7 +36,7 @@ nun noch die Spalten-Bezeichnungen wie in der txt eintragen.....wenn überhaupt 
 
 Wenn Du die Segmente/LEDs nur zu einem bestimmten Zeitpunkt betrachten willst - z.B. bei 1.45 ms - , dann gib zBsp Startzeit=0.00141 Stopzeit=0.00149 an....eine kleine Zeitspanne nach gesundem Menschenverstand einberechnen.
 
-Desktop Icon: Linux-User können einen Starter anlegen (Typ: Anwendung, Befehl: s7s >> Bedingung ist, dass die s7s in /usr/local/bin gespeichert ist) und dieses Icon (7segment.png) dazu einpflegen.  
+Desktop Icon: Linux-User können einen Starter anlegen (Typ: Anwendung, Befehl: s7s >> Bedingung ist, dass die s7s in /usr/local/bin ohne Endung .py gespeichert ist) und dieses Icon (7segment.png) dazu einpflegen.  
 
 Datei zum testen: CD4033_test_9.10.21.txt 
 
@@ -85,7 +85,7 @@ Colour dark: RGB value for a deactivated digit, (V(x) < Threshold). (preset: C0C
   
 Now enter the column names as in the txt .....if needed. Normally these "labels" are suitable if they have been specified in LTspice like this (V(a), V(b), ...).
 
-Desktop Icon: Linux users can create a starter (type: application, command: s7s >> the condition is that the s7s is stored in /usr/local/bin) and add this icon (7segment.png).
+Desktop Icon: Linux users can create a starter (type: application, command: s7s >> the condition is that the s7s is stored in /usr/local/bin (without .py) and add this icon (7segment.png).
 
 File for testing: CD4033_test_9.10.21.txt
 
