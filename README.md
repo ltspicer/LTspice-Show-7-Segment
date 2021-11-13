@@ -16,21 +16,21 @@ Dann starte das Programm s7s.py.
 
 Nach dem Aufruf, dem Öffnen der txt Datei und ev weiteren Anpassungen, auf "Fertig" drücken. Meistens passen die Voreinstellungen. Sonst ggf anpassen. Nun wird die 7-Segment-Anzeige und die 4 zusätzlichen LEDs animiert.
 
-Startzeit Anfang des betrachteten Zeitbereichs in Sekunden, siehe Plot-Fenster (voreingestellt: 0.0000)
+Startzeit: Anfang des betrachteten Zeitbereichs in Sekunden, siehe Plot-Fenster (voreingestellt: 0.0000)
 
-Stopzeit Ende des betrachteten Zeitbereichs in Sekunden (voreingestellt: 999.9999)
+Stopzeit: Ende des betrachteten Zeitbereichs in Sekunden (voreingestellt: 999.9999)
 
-Abtastintervall In diesem Zeitintervall in Sekunden wird die exportierte txt Datei "abgetastet". Bei einem Clock von 1 ms wäre hier z.B. Intervall=0.001 sinnvoll. (voreingestellt: 0.001)
+Abtastintervall: In diesem Zeitintervall in Sekunden wird die exportierte txt Datei "abgetastet". Bei einem Clock von 1 ms wäre hier z.B. Intervall=0.001 sinnvoll. (voreingestellt: 0.001)
 
-Verzögerung Verzögerungszeit für die Anzeige aufeinanderfolgender Abtastungen, in Sekunden (voreingestellt: 0.2)
+Verzögerung: Verzögerungszeit für die Anzeige aufeinanderfolgender Abtastungen, in Sekunden (voreingestellt: 0.2)
 
-H/L Schwelle Höhe der Hell/Dunkel-Schwelle in V (voreingestellt: 2.5)
+H/L Schwelle: Höhe der Hell/Dunkel-Schwelle in V (voreingestellt: 2.5)
 
 nun die weniger wichtigen Eintragungen:
 
-Farbe hell RGB-Wert für ein eingeschaltetes Digit, (V(x) >= Schwelle). (voreingestellt: FF4000)
+Farbe hell: RGB-Wert für ein eingeschaltetes Digit, (V(x) >= Schwelle). (voreingestellt: FF4000)
   
-Farbe dunkel RGB-Wert für ein ausgeschaltetes Digit, (V(x) < Schwelle).(voreingestellt: C0C0C0)
+Farbe dunkel: RGB-Wert für ein ausgeschaltetes Digit, (V(x) < Schwelle).(voreingestellt: C0C0C0)
   
 nun noch die Spalten-Bezeichnungen wie in der txt eintragen.....wenn überhaupt nötig. Normalerweise passen diese "Labels", wenn die in LTspice so angegeben wurden ( V(a), V(b)....).
 
