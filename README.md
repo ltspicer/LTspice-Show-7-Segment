@@ -74,9 +74,9 @@ H/L threshold: H/L threshold for light/dark in V (preset: 2.5)
   
 now the less important entries:
   
-Colour light: RGB value for an activated digit, (V (<Segment>)> = <Threshold>). (preset: FF4000)
+Colour light: RGB value for an activated digit, (V (<Segment>)>= <Threshold>). (preset: FF4000)
   
-Colour dark: RGB value for a deactivated digit, (V (<Segment>) <<Threshold>). (preset: C0C0C0)
+Colour dark: RGB value for a deactivated digit, (V (<Segment>) < <Threshold>). (preset: C0C0C0)
   
 now enter the column names as in the txt .....if needed.
 
