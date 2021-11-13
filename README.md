@@ -4,11 +4,12 @@ Benötigt: Python3.7+ (Windows User müssen Python3.7 oder höher installieren /
 Fehlende Bibliotheken werden automatisch beim Erststart installiert.
 
 Jede der Segmentspannungen V(a) .. V(g), steuern dabei ein Segment an; die Spannungen V(RBO) und V(Carryout) steuern zwei "LEDs" an. Diese Spannungen entnimmt das Programm einer Text-Datei, die die Simulationsergebnisse enthält. Die Text-Datei exportiert man folgendermaßen:
-1.   Nach der Simulation klicke auf das Plot-Fenster und dann auf File / Export. Dort wählst Du die oben benannten Spannungen aus. Als Dateiname wird der Name der Simulation mit der Endung .txt vorgeschlagen. Das Programm sucht später in der Kopfzeile der Text-Datei nach diesen Spannungen, merkt sich die jeweilige Spalte und zeigt sie an. Die Spalten-Bezeichnungen können ggf in den Einstellungen im ersten Fenster angepasst werden. Es können auf Wunsch noch 2 weitere Signale verarbeitet werden (x1 und x2).
-2.   
-3.  Dann starte das Programm s7s.py.
-4.  
-5.  Nach dem Aufruf, dem Öffnen der txt Datei und ev weiteren Anpassungen, auf "Fertig" drücken. Meistens passen die Voreinstellungen. Sonst ggf anpassen. Nun wird die 7-Segment-Anzeige und die 4 zusätzlichen LEDs animiert.
+
+Nach der Simulation klicke auf das Plot-Fenster und dann auf File / Export. Dort wählst Du die oben benannten Spannungen aus. Als Dateiname wird der Name der Simulation mit der Endung .txt vorgeschlagen. Das Programm sucht später in der Kopfzeile der Text-Datei nach diesen Spannungen, merkt sich die jeweilige Spalte und zeigt sie an. Die Spalten-Bezeichnungen können ggf in den Einstellungen im ersten Fenster angepasst werden. Es können auf Wunsch noch 2 weitere Signale verarbeitet werden (x1 und x2).
+
+Dann starte das Programm s7s.py.
+
+Nach dem Aufruf, dem Öffnen der txt Datei und ev weiteren Anpassungen, auf "Fertig" drücken. Meistens passen die Voreinstellungen. Sonst ggf anpassen. Nun wird die 7-Segment-Anzeige und die 4 zusätzlichen LEDs animiert.
 
 Startzeit Anfang des betrachteten Zeitbereichs in Sekunden, siehe Plot-Fenster (voreingestellt: 0.0000)
 
@@ -32,7 +33,7 @@ Wenn Du die Segmente/LEDs nur zu einem bestimmten Zeitpunkt betrachten willst - 
 
 Desktop Icon: Linux-User können einen Starter anlegen (Typ: Anwendung, Befehl: s7s >> Bedingung ist, dass die s7s in /usr/local/bin gespeichert ist) und dieses Icon (7segment.png) dazu einpflegen.  
   
-
+-----------------------------------------
   
 English:  
 
