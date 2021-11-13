@@ -77,13 +77,13 @@ Delay: Delay time for the display of successive samples, in seconds (preset: 0.2
   
 H/L threshold: H/L threshold for light/dark in V (preset: 2.5)
   
-now the less important entries:
+Now the less important entries:
   
 Colour light: RGB value for an activated digit, (V(x) >= Threshold). (preset: FF4000)
   
 Colour dark: RGB value for a deactivated digit, (V(x) < Threshold). (preset: C0C0C0)
   
-now enter the column names as in the txt .....if needed. Normally these "labels" are suitable if they have been specified in LTspice like this (V(a), V(b), ...).
+Now enter the column names as in the txt .....if needed. Normally these "labels" are suitable if they have been specified in LTspice like this (V(a), V(b), ...).
 
 Desktop Icon: Linux users can create a starter (type: application, command: s7s >> the condition is that the s7s is stored in /usr/local/bin) and add this icon (7segment.png).
 
