@@ -28,9 +28,9 @@ H/L Schwelle Höhe der Hell/Dunkel-Schwelle in V (voreingestellt: 2.5)
 
 nun die weniger wichtigen Eintragungen:
 
-Farbe hell RGB-Wert für ein eingeschaltetes Digit, (V(<Segment>) >= <Schwelle>). (voreingestellt: FF4000)
+Farbe hell RGB-Wert für ein eingeschaltetes Digit, (V(x) >= <Schwelle>). (voreingestellt: FF4000)
   
-Farbe dunkel RGB-Wert für ein ausgeschaltetes Digit, (V(<Segment>) < <Schwelle>).(voreingestellt: C0C0C0)
+Farbe dunkel RGB-Wert für ein ausgeschaltetes Digit, (V(x) < <Schwelle>).(voreingestellt: C0C0C0)
   
 nun noch die Spalten-Bezeichnungen wie in der txt eintragen.....wenn überhaupt nötig. Normalerweise passen diese "Labels", wenn die in LTspice so angegeben wurden ( V(a), V(b)....).
 
@@ -74,9 +74,9 @@ H/L threshold: H/L threshold for light/dark in V (preset: 2.5)
   
 now the less important entries:
   
-Colour light: RGB value for an activated digit, (V (<Segment>)>= <Threshold>). (preset: FF4000)
+Colour light: RGB value for an activated digit, (V(x) >= <Threshold>). (preset: FF4000)
   
-Colour dark: RGB value for a deactivated digit, (V (<Segment>) < <Threshold>). (preset: C0C0C0)
+Colour dark: RGB value for a deactivated digit, (V(x) < <Threshold>). (preset: C0C0C0)
   
 now enter the column names as in the txt .....if needed.
 
