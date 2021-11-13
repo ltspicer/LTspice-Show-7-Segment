@@ -44,7 +44,9 @@ Requirements: Python3.7+ (Windows users need to install Python3 / on Linux is it
 Edit first this line in the code to EN (language = "EN")
 
 language = "DE"     # Hier Sprache wählen (DE)  -  Select language here (EN)
+  
 to
+  
 language = "EN"     # Hier Sprache wählen (DE)  -  Select language here (EN)
   
 After the simulation click on the plot window and then on File / Export.
