@@ -85,7 +85,7 @@ Colour dark: RGB value for a deactivated digit, (V(x) < Threshold). (preset: C0C
   
 Now enter the column names as in the txt .....if needed. Normally these "labels" are suitable if they have been specified in LTspice like this (V(a), V(b), ...).
 
-Desktop Icon: Linux users can create a starter (type: application, command: s7s >> the condition is that the s7s is stored in /usr/local/bin (without .py) and add this icon (7segment.png).
+Desktop Icon: Linux users can create a starter (type: application, command: s7s >> the condition is that the s7s is stored in /usr/local/bin (without .py)) and add this icon (7segment.png).
 
 File for testing: CD4033_test_9.10.21.txt
 
