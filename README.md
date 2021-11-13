@@ -1,4 +1,4 @@
-Visualisierung von 7-Segment Anzeige aus LTspice-Plot
+Visualisierung von 7-Segment Anzeige aus LTspice-Plot (Python3 Programm)
 
 Benötigt: Python3.7+ (Windows User müssen Python3.7 oder höher installieren / In Linux ist das bereits vorinstalliert)
 
