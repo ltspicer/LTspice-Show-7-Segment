@@ -57,7 +57,9 @@ language = "DE"     # Hier Sprache wählen (DE)  -  Select language here (EN)
 to
   
 language = "EN"     # Hier Sprache wählen (DE)  -  Select language here (EN)
-  
+
+Each of the segment voltages V(a) .. V(g) control a segment; the voltages V(RBO) and V(carryout) control the two LEDs on the right side. The program takes these voltages from the text file that contains the simulation results. The text file is exported as follows: 
+
 After the simulation click on the plot window and then on File / "Export data as text".
 There you select the required voltages.
 Export to the txt file.
