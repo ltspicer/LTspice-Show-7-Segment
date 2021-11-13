@@ -81,3 +81,6 @@ Colour dark: RGB value for a deactivated digit, (V (<Segment>) <<Threshold>). (p
 now enter the column names as in the txt .....if needed.
 
 Desktop Icon: Linux users can create a starter (type: application, command: s7s >> the condition is that the s7s is stored in /usr/local/bin) and add this icon (7segment.png).
+
+  
+  Home of this source: https://www.ltspiceusers.ch/threads/visualisierung-von-7-segment-anzeige-aus-ltspice-plot-python3-programm.827/#post-2220
