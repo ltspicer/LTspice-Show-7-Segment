@@ -44,6 +44,8 @@ Visualization of 7-segment display from LTspice plots (Python3 program)
 
 Requirements: Python3.7+ (Windows users need to install Python3 / on Linux is it allways installed)
   
+See: https://bodo-schoenfeld.de/installation-von-python-unter-windows-10/
+  
 Missing libraries are automatically installed when the program is started for the first time.
 
 Edit first this line in the code to EN
