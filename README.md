@@ -41,7 +41,7 @@ Visualization of 7-segment display from LTspice plots (Python3 program)
 
 Requirements: Python3.7+ (Windows users need to install Python3 / on Linux is it allways installed)
 
-Edit first this line in the code to EN (language = "EN")
+Edit first this line in the code to EN
 
 language = "DE"     # Hier Sprache wählen (DE)  -  Select language here (EN)
   
