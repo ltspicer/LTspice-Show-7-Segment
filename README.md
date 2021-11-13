@@ -83,7 +83,7 @@ Colour light: RGB value for an activated digit, (V(x) >= Threshold). (preset: FF
   
 Colour dark: RGB value for a deactivated digit, (V(x) < Threshold). (preset: C0C0C0)
   
-now enter the column names as in the txt .....if needed.
+now enter the column names as in the txt .....if needed. Normally these "labels" are suitable if they have been specified in LTspice like this (V(a), V(b), ...).
 
 Desktop Icon: Linux users can create a starter (type: application, command: s7s >> the condition is that the s7s is stored in /usr/local/bin) and add this icon (7segment.png).
 
