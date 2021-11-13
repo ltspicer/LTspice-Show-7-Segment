@@ -1,6 +1,7 @@
 Visualisierung von 7-Segment Anzeige aus LTspice-Plot
 
 Benötigt: Python3.7+ (Windows User müssen Python3.7 oder höher installieren / In Linux ist das bereits vorinstalliert)
+
 Fehlende Bibliotheken werden automatisch beim Erststart installiert.
 
 Jede der Segmentspannungen V(a) .. V(g), steuern dabei ein Segment an; die Spannungen V(RBO) und V(Carryout) steuern zwei "LEDs" an. Diese Spannungen entnimmt das Programm einer Text-Datei, die die Simulationsergebnisse enthält. Die Text-Datei exportiert man folgendermaßen:
@@ -40,6 +41,8 @@ English:
 Visualization of 7-segment display from LTspice plots (Python3 program)
 
 Requirements: Python3.7+ (Windows users need to install Python3 / on Linux is it allways installed)
+  
+Missing libraries are automatically installed when the program is started for the first time.
 
 Edit first this line in the code to EN
 
@@ -70,3 +73,5 @@ Colour light: RGB value for an activated digit, (V (<Segment>)> = <Threshold>). 
 Colour dark: RGB value for a deactivated digit, (V (<Segment>) <<Threshold>). (preset: C0C0C0)
   
 now enter the column names as in the txt .....if needed.
+
+Desktop Icon: Linux users can create a starter (type: application, command: s7s >> the condition is that the s7s is stored in /usr/local/bin) and add this icon (7segment.png).
