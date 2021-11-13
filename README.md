@@ -41,6 +41,10 @@ Visualization of 7-segment display from LTspice plots (Python3 program)
 
 Requirements: Python3.7+ (Windows users need to install Python3 / on Linux is it allways installed)
 
+First edit this line in the code to EN (language = "EN")
+
+language = "DE"     # Hier Sprache wählen (DE)  -  Select language here (EN)  
+  
 After the simulation click on the plot window and then on File / Export.
 There you select the required voltages.
 Export to the txt file.
