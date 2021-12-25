@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 ################################
-# Show 7 Segment V1.7          #
+# Show 7 Segment V2.1          #
 # von Daniel Luginbuehl        #
 # (C) 2021 www.ltspiceusers.ch #
 # webmaster@ltspiceusers.ch    #
@@ -46,9 +46,9 @@ if language == "DE":
     settings    = "Einstellungen"
     fehler      = "Fehler"
     seg_fehler  = ' Es fehlt ein oder mehrere Segment(e) oder ist/sind falsch gelabelt! \n Prüfe die Felder "Segment A" bis "Segment G"'
-    ph_pause    = "Pause"
-    ph_weiter   = "Weiter"
+    ph_pause    = "Pause/Weiter"
     ph_zuruck   = "Zu Einstellungen zurück"
+    ph_richtung = "Richtung ändern"
 
     fields = 'Startzeit (s)', 'Stopzeit (s)', 'Abtastintervall (s)', 'Verzögerung (s)', 'H/L Schwelle (V)', 'Segment A', 'Segment B', 'Segment C', 'Segment D', 'Segment E', 'Segment F', 'Segment G', 'CarryOut', 'RBO', 'Farbe dunkel', 'Farbe hell', 'x1', 'x2', 'Zeit'
 
@@ -65,9 +65,9 @@ else:
     settings    = "Settings"
     fehler      = "Error"
     seg_fehler  = ' One or more segments are missing or incorrectly labeled! \n Check the fields "Segment A" to "Segment G"'
-    ph_pause    = "Pause"
-    ph_weiter   = "Continue"
+    ph_pause    = "Pause/Continue"
     ph_zuruck   = "Back to settings"
+    ph_richtung = "Change direction"
 
     fields = 'Start time (s)', 'Stop time (s)', 'Sampl. interval (s)', 'Delay (s)', 'H/L threshold (V)', 'Segment A', 'Segment B', 'Segment C', 'Segment D', 'Segment E', 'Segment F', 'Segment G', 'CarryOut', 'RBO', 'Colour dark', 'Color light', 'x1', 'x2', 'Time'
 
@@ -245,11 +245,17 @@ def ausgabe(tabellen_index):
 
 def stop():
     global running
-    running = 0
+    if running == 1:
+        running = 0
+    else:
+        running = 1
 
-def weiter():
-    global running
-    running = 1
+def richtung():
+    global direction
+    if direction == 1:
+        direction = -1
+    else:
+        direction = 1
 
 def zuruck():
     global zuruck_status
@@ -322,6 +328,7 @@ while True:
     sx1=standard[16]
     sx2=standard[17]
     stime=standard[18]
+    direction=1
 
 
     #### Tabelle lesen und aufbereiten
@@ -475,8 +482,8 @@ while True:
         stopButton = Button(fenster2, text = ph_pause, command = stop)
         stopButton.grid(column=0, row=3)
 
-        weiterButton = Button(fenster2, text = ph_weiter, command = weiter)
-        weiterButton.grid(column=0, row=4)
+        richtungButton = Button(fenster2, text = ph_richtung, command = richtung)
+        richtungButton.grid(column=0, row=4)
 
         zuruckButton = Button(fenster2, text = ph_zuruck, command = zuruck2)
         zuruckButton.grid(column=0, row=5)
@@ -493,12 +500,16 @@ while True:
 
         # Live Verarbeitung Anzeigen/Ausgeben. n = Tabellenindex (Tabellen-Zeilen)
 
-        while n <= end:
+        while True:
             if zuruck_status==1:
                 break
             ausgabe(n)
             if running == 1:
-                n=n + schrittweite
+                n=n + schrittweite*direction
+                if n <= 0:
+                    n=0
+                if n >= end:
+                    n=end
             time.sleep(delay/1000)
 
         fenster2.mainloop()
