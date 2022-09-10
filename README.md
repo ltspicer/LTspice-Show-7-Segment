@@ -2,7 +2,7 @@ Deutsch:
 
 Visualisierung von 7-Segment Anzeige aus LTspice-Plot (Python3 Programm)
 
-Benötigt: Python3.7+ (Windows User müssen Python3.7 oder höher installieren / In Linux ist das bereits vorinstalliert)
+Benötigt: Python3.7+ (Windows User müssen Python3.7 oder höher installieren / In Linux ist das bereits vorinstalliert, wobei da ev pip installiert werden muss >> sudo apt install python3-pip)
 
 Siehe: https://bodo-schoenfeld.de/installation-von-python-unter-windows-10/
 
@@ -46,7 +46,7 @@ English:
 
 Visualization of 7-segment display from LTspice plots (Python3 program)
 
-Requirements: Python3.7+ (Windows users need to install Python3.7 or higher / on Linux is it allways installed)
+Requirements: Python3.7+ (Windows users need to install Python3.7 or higher / on Linux is it allways installed, where pip may have to be installed >> sudo apt install python3-pip)
   
 See: https://bodo-schoenfeld.de/installation-von-python-unter-windows-10/
   
