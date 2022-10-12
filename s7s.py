@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 ################################
-# Show 7 Segment V2.1          #
+# Show 7 Segment V2.2          #
 # von Daniel Luginbuehl        #
 # (C) 2021 www.ltspiceusers.ch #
 # webmaster@ltspiceusers.ch    #
@@ -23,10 +23,21 @@ try:
 except ImportError as e:
     import subprocess, sys
     subprocess.check_call([sys.executable, '-m', 'pip', 'install', 'pandas'])
-    import pandas as pd
+
+try:
+    import tkinter as tk
+except ImportError as e:
+    print("Install tkinter first!")
+    print("Debian: sudo apt-get install python3-tk")
+    print("Fedora: sudo dnf install python3-tkinter")
+    print("CentOS: sudo yum install python3-tkinter")
+    print("MacOS: brew install python-tk@3.10  << enter correct Python version!")
+    print("Windows: See https://www.activestate.com/products/python/")
+    exit()
 
 import os
 import tkinter as tk
+import pandas as pd
 import time
 from tkinter.ttk import Frame, Label, Button
 from tkinter.filedialog import askopenfile
