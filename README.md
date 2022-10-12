@@ -7,6 +7,7 @@ Benötigt: Python3.7+ (Windows User müssen Python3.7 oder höher installieren /
 Siehe: https://bodo-schoenfeld.de/installation-von-python-unter-windows-10/
 
 Fehlende Bibliotheken werden automatisch beim Erststart installiert.
+Falls tkinter fehlt, wird im Terminal darauf hingewiesen und die notwendigen Befehle angezeigt.
 
 Jede der Segmentspannungen V(a) .. V(g), steuern dabei ein Segment an; die Spannungen V(RBO) und V(Carryout) steuern zwei "LEDs" auf der rechten Seite an. Diese Spannungen entnimmt das Programm der (exportierten) Text-Datei, die die Simulationsergebnisse enthält. Die Text-Datei exportiert man folgendermaßen:
 
@@ -51,6 +52,7 @@ Requirements: Python3.7+ (Windows users need to install Python3.7 or higher / on
 See: https://bodo-schoenfeld.de/installation-von-python-unter-windows-10/
   
 Missing libraries are automatically installed when the program is started for the first time.
+If tkinter is missing, this will be pointed out in the terminal and the necessary commands will be displayed.
 
 Edit first this line in the code to EN
 
