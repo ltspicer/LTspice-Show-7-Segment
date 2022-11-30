@@ -71,9 +71,9 @@ Each of the segment voltages V(a) .. V(g) control a segment; the voltages V(RBO)
 After the simulation click on the plot window and then on File / "Export data as text".
 There you select the required voltages. The name of the simulation with the extension .txt is suggested as the file name. The program later searches for these voltages in the header of the text file, notes the respective column and displays it. If necessary, the column names can be adjusted in the settings in the first window. If desired, 2 further signals can be processed (x1 and x2).
 
-Execute s7s.py now (or s7s_EN.exe) and open the desired txt file.
+Execute s7s.py now (or s7s_EN.exe).
 
-After calling, opening the txt file and making further adjustments, press "Complete". Most of the time the defaults are fine. Otherwise adjust if necessary. Now the 7-segment and the 4 additional LEDs are animated.
+After calling, open the desired txt file and making further adjustments. Then press "Complete". Most of the time the defaults are fine. Otherwise adjust if necessary. Now the 7-segment and the 4 additional LEDs are animated.
 
 Start time: Start of the considered time range in seconds (preset: 0.0000)
   
