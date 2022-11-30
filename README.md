@@ -15,7 +15,7 @@ Jede der Segmentspannungen V(a) .. V(g), steuern dabei ein Segment an; die Spann
 
 Nach der Simulation klicke auf das Plot-Fenster und dann auf File / "Export data as text". Dort wählst Du die oben benannten Spannungen aus. Als Dateiname wird der Name der Simulation mit der Endung .txt vorgeschlagen. Das Programm sucht später in der Kopfzeile der Text-Datei nach diesen Spannungen, merkt sich die jeweilige Spalte und zeigt sie an. Die Spalten-Bezeichnungen können ggf in den Einstellungen im ersten Fenster angepasst werden. Es können auf Wunsch noch 2 weitere Signale verarbeitet werden (x1 und x2).
 
-Dann starte das Programm s7s.py.
+Dann starte das Programm s7s.py (oder s7s_DE.exe).
 
 Nach dem Aufruf, dem Öffnen der txt Datei und ev weiteren Anpassungen, auf "Fertig" drücken. Meistens passen die Voreinstellungen. Sonst ggf anpassen. Nun wird die 7-Segment-Anzeige und die 4 zusätzlichen LEDs animiert.
 
@@ -71,7 +71,7 @@ Each of the segment voltages V(a) .. V(g) control a segment; the voltages V(RBO)
 After the simulation click on the plot window and then on File / "Export data as text".
 There you select the required voltages. The name of the simulation with the extension .txt is suggested as the file name. The program later searches for these voltages in the header of the text file, notes the respective column and displays it. If necessary, the column names can be adjusted in the settings in the first window. If desired, 2 further signals can be processed (x1 and x2).
 
-Execute s7s.py now.
+Execute s7s.py now (or s7s_EN.exe) and open the desired txt file.
   
 Start time: Start of the considered time range in seconds (preset: 0.0000)
   
