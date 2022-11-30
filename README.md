@@ -4,12 +4,12 @@ Visualisierung von 7-Segment Anzeige aus LTspice-Plot (Python3 Programm)
 
 Benötigt: Python3.7+ (Windows User müssen Python3.7 oder höher installieren / In Linux ist das bereits vorinstalliert, wobei da ev pip installiert werden muss >> sudo apt install python3-pip)
 
-Die s7s_DE.exe benötigt keine Installationen.
-
 Siehe: https://bodo-schoenfeld.de/installation-von-python-unter-windows-10/
 
 Fehlende Bibliotheken werden automatisch beim Erststart installiert.
 Falls tkinter fehlt, wird im Terminal darauf hingewiesen und die notwendigen Befehle angezeigt.
+
+Die s7s_DE.exe benötigt keine Installationen/Einstellungen!
 
 Jede der Segmentspannungen V(a) .. V(g), steuern dabei ein Segment an; die Spannungen V(RBO) und V(Carryout) steuern zwei "LEDs" auf der rechten Seite an. Diese Spannungen entnimmt das Programm der (exportierten) Text-Datei, die die Simulationsergebnisse enthält. Die Text-Datei exportiert man folgendermaßen:
 
@@ -51,8 +51,6 @@ Visualization of 7-segment display from LTspice plots (Python3 program)
 
 Requirements: Python3.7+ (Windows users need to install Python3.7 or higher / on Linux is it allways installed, where pip may have to be installed >> sudo apt install python3-pip)
 
-The s7s_EN.exe does not require any installations.
-  
 See: https://bodo-schoenfeld.de/installation-von-python-unter-windows-10/
   
 Missing libraries are automatically installed when the program is started for the first time.
@@ -65,6 +63,8 @@ language = "DE"     # Hier Sprache wählen (DE)  -  Select language here (EN)
 to
   
 language = "EN"     # Hier Sprache wählen (DE)  -  Select language here (EN)
+
+The s7s_EN.exe does not require any installations/settings!
 
 Each of the segment voltages V(a) .. V(g) control a segment; the voltages V(RBO) and V(carryout) control the two LEDs on the right side. The program takes these voltages from the exported text file that contains the simulation results. The text file is exported as follows: 
 
