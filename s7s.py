@@ -1,9 +1,9 @@
 #!/usr/bin/python3
 
 ################################
-# Show 7 Segment V2.2          #
+# Show 7 Segment V2.3          #
 # von Daniel Luginbuehl        #
-# (C) 2021 www.ltspiceusers.ch #
+# (C) 2025 www.ltspiceusers.ch #
 # webmaster@ltspiceusers.ch    #
 ################################
 
@@ -23,7 +23,7 @@ try:
 except ImportError as e:
     import subprocess
     import sys
-    subprocess.check_call([sys.executable, '-m', 'pip', 'install', 'pandas'])
+    subprocess.check_call([sys.executable, '-m', 'pip', 'install', 'pandas', '--break-system-packages'])
 
 try:
     import tkinter as tk
