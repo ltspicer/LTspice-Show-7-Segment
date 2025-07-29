@@ -1,3 +1,5 @@
+![Screenshot](https://github.com/ltspicer/LTspice-Show-7-Segment/blob/main/screenshot.png)
+
 Deutsch:
 
 Visualisierung von 7-Segment Anzeige aus LTspice-Plot (Python3 Programm)
